@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+body {
+    font-family: "Golos Text", sans-serif;
+    color: #313131;
+    width: 100%;
+}
+.container {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.header{
+    background-color: rgb(233, 222, 212);
+    height: 700px;
+    background-image: url(./img/hero/summ2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 100%;
+    background-position-x: 60%;
+}
+
+/* @media screen and (max-width:1366px){
+    .header {
+               background-position-x: 30%;
+    }
+}
+
+
+@media screen and (max-width:1366px){
+    .container {
+        width: 1200px;
+    }
+} */
+
+.logo {
+    width: 245.17px;
+    height: 36px;
+    margin-bottom: 62px;
+}
+
+.hero {
+    max-width: 100%;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.hero__body {
+    width: 542px;
+    height: 444px;
+}
+
+.header__title {
+    font-family: "Merriweather", serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 66px;
+    text-align: left;
+
+    max-width: 540px;
+}
+.title-center {
+    text-align: center;
+}
+
+.header__text {
+    margin-top: 24px;
+    color: #666;
+    font-size: 18px;
+    line-height: 23.4px;
+    text-align: center;
+
+    max-width: 532px;
+}
+
+.buttons {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+button {
+    width: 263px;
+    max-width: 263px;
+    padding: 20px 49px;
+    border-radius: 66px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.black-button {
+    background-color: #000;
+    color: white;
+    border: none;
+}
+
+.transparent-button {
+    background-color: transparent;
+    color: #333;
+    border: 2px solid #333;
+}
